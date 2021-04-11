@@ -6,6 +6,6 @@ namespace HomeWork.DL.Entities
 {
     public class BaseEntity
     {
-        public int CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

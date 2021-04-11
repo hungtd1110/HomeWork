@@ -15,6 +15,9 @@ namespace HomeWork.DL.Configuration
 
             builder.HasKey(classroom => classroom.ClassID);
 
+            builder.Property(classroom => classroom.ClassID)
+                .UseIdentityColumn();
+
             builder.Property(classroom => classroom.ClassName)
                 .IsRequired();
 

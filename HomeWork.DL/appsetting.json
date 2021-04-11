@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "HomeWorkDatabase": "Server=DESKTOP-AKK0EVN;Database=HomeWork;Trusted_Connection=True;"
+  }
+}
